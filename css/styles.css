@@ -4,6 +4,7 @@
     font-family: sans-serif;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 body {
@@ -68,10 +69,7 @@ h4 {
     text-align: center;
 
 }
-.portrait img {
-    width: 60%;
-    border-radius: 15%;
-}
+
 
 .header {
     color: black;
@@ -103,9 +101,9 @@ h4 {
 
 /*-------FOOTER---------*/
 
-.footer {
+footer {
     display: flex;
-    justify-content:space-between
+    justify-content: space-between;
 }
 
 footer a {
@@ -121,19 +119,17 @@ footer h3 {
     float: right;
 }
 .navigation-container {
-   align-items: flex-end;
    display: none;
 
 }
 
 .mobile {
     float: right;
-
 }
 
 /*----------MEDIA QUERIES----------*/
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
 
 body {
     font-size: 1.25em;
@@ -209,12 +205,12 @@ nav li {
 .mobile {
     display: none;
 }
+}
 
 
 
 
-
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
 
 body {
     font-size: 1.2em;
@@ -277,4 +273,5 @@ nav ul {
     content: "";
     clear: both;
     display: table;
+}
 }
